@@ -4,7 +4,7 @@ const { userRouter } = require("./routes/user_routes")
 const cors = require("cors")
 const { noteRouter } = require("./routes/note_routes")
 require("dotenv").config()
-const port = process.env.port
+const port = process.env.PORT
 const app = express()
 app.use(cors())
 app.use (express.json())
